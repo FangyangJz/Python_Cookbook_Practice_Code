@@ -13,7 +13,7 @@ def search(lines, pattern, history=5):
         previous_lines.append(li)
 
 if __name__ == '__main__':
-    with open('data.txt') as f:
+    with open('.\\data.txt') as f:
         for line, prevlines in search(f, 'python', 5):
             for pline in prevlines:
                 print(pline, end='')
