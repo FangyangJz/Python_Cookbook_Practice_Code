@@ -1,0 +1,10 @@
+{
+    "name": "ACE",
+    "shares": 100,
+    "price": 545.43,
+    "employees": [
+        { "firstName":"John" , "lastName":"Doe" },
+        { "firstName":"Anna" , "lastName":"Smith" },
+        { "firstName":"Peter" , "lastName":"Jones" }
+        ]
+}
